@@ -1,36 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.AI;
-
-public class Enemy : MonoBehaviour
-{
-    public string tagObj;
-
-    Transform targetObj;
-    Animator animator;
-    NavMeshAgent navMeshAgent;
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        if(targetObj == null) {
-            targetObj = GameObject.FindGameObjectWithTag("Player").transform;
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        navMeshAgent.destination = targetObj.position;
-    }
-
-    void OnTriggerEnter(Collider other){
-        if(other.gameObject == targetObj){
-            Destroy(other.gameObject);
-            navMeshAgent.isStopped = true;
-            animator.SetTrigger("Death");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:974f800d84edbd156cb1dc45a69b001e9ae3ca859e21610812e7d02da7b54e5c
+size 881
