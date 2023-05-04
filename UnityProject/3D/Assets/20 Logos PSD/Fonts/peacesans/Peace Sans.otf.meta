@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48629aa9103ea57b4384e0d608552c9abec09276b2a7cb94ee781037a0b9d35b
-size 498
+fileFormatVersion: 2
+guid: 88ea75a9053f106459a11a24e6d30129
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Peace Sans
+  fontNames:
+  - Peace Sans
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

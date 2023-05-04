@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b05cc569d055e5187ace0533afc2a77416f60634656af69d579e79c8b2ef4fd
-size 328
+﻿//using UnityEngine;
+
+//namespace TMPro
+//{
+//    [DisallowMultipleComponent]
+//    [RequireComponent(typeof(RectTransform))]
+//    [RequireComponent(typeof(CanvasRenderer))]
+//    [AddComponentMenu("UI/Text Mesh Pro/Text", 0)]
+//    [ExecuteAlways]
+//    public class Text : TextMeshProUGUI
+//    {
+
+//    }
+//}

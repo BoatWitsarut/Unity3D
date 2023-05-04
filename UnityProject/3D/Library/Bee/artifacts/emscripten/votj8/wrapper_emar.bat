@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:715ecd5fde0226af076b5e9e50a50c0b55f51509b8a49da92e85a428722bc6a4
-size 169
+
+@echo off
+"C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\emar.bat" %* < nul
+exit %ERRORLEVEL%
