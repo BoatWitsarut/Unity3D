@@ -1,1 +1,3 @@
-{"root":[{"assemblyName":"Unity.VisualScripting.Core","nameSpace":"Unity.VisualScripting","className":"RuntimeVSUsageUtility","methodName":"RuntimeInitializeOnLoadBeforeSceneLoad","loadTypes":1,"isUnityClass":true}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0198c93e8fda044a54055118851a774eaa86ba9dab648a6999e5a61fcfefff90
+size 1726
